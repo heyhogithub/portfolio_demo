@@ -6,6 +6,7 @@
     <title>Portfolio || Raj Maurya</title>
      <link rel="shortcut icon" href="./Assets/Images/briefcase-1.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -137,8 +138,9 @@
         <p class="experience_div_heading my_work">
           My Work
         </p>
-        <h2 class="project_no">Project 1</h2>
-        <div class="project project1">
+        <h2 class="project_no">P
+            roject 1</h2>
+        <div class="project project1"  data-aos="fade-right">
         
             <div class="project-content">
                 <div class="project-image">
@@ -159,7 +161,7 @@
             </div>
         </div>
         <h2 class="project_no_2">Project 2</h2>
-        <div class="project project2" >
+        <div class="project project2"  data-aos="fade-left">
             
             <div class="project-content">
               
@@ -184,7 +186,7 @@
 
         <h2 class="project_no">Project 3</h2>
 
-        <div class="project project3">
+        <div class="project project3"  data-aos="fade-right">
           
             <div class="project-content">
                 <div class="project-image">
@@ -315,7 +317,7 @@
         <div class="red-line-2"></div>
         <div class="slider">
             <div class="slide">
-                <div class="card">
+                <div class="card"  data-aos="fade-right">
                     <div class="c-text">
                         <h3>Google</h3>
                         <p>If anyone is looking to create a book cover, this is the place you need to visit.My editor recommended 99design and I am glad she did. My only regret is that I didn't here about them for my first 3 books. That did a great job!!</p>
@@ -334,7 +336,7 @@
                 </div>
             </div>
             <div class="slide">
-                <div class="card">
+                <div class="card"  data-aos="fade-left">
                     <div class="c-text">
                         <h3>Google</h3>
                         <p>If anyone is looking to create a book cover, this is the place you need to visit.My editor recommended 99design and I am glad she did. My only regret is that I didn't here about them for my first 3 books. That did a great job!!</p>
@@ -387,7 +389,10 @@
     </section>
 
    
-        
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   
 </body>
 </html>
